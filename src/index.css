@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #212023;
+  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.wrapper {
+  width: 400px;
+  background: #ced1d4;
+  border-radius: 15px;
+  padding: 30px;
+  /* box-shadow: 10px -1px 10px  #ccc; */
+ 
+  
+}
+header{
+  display: flex;
+  align-items: center;
+  height: 55px ;
+  border: 1px solid #ccc ;
+  background:#ced4d1 ;
+  border-radius: 51px;
+  box-shadow: -3px -3px 7px #e1cbcb73 ,  3px 3px 5px rgba(94,104,121,288);
+}
+
+label{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.30s;
+
+
+
+}
+
+.menu:hover{
+  box-shadow: -3px -3px 7px #ffffff73 , inset 2px 3px 5px rgba(94,104,121,288);
+  border-radius: inherit;
+}
+
+input{
+
+   align-items: center;
+  justify-content: center; 
+  margin: 20px;
+  border-radius: inherit;
+  padding: 0.75em 1.5em;
+  border: #e3e3e3 1px solid;
+  background: rgb(237, 234, 234);
+  box-shadow: -3px -3px 7px #ffffff73 , inset 2px 3px 5px rgba(94,104,121,288);
+  border-radius: inherit;
+  
+}
+
+/* input:hover{
+  box-shadow: -3px -3px 7px #ffffff73 , 2px 3px 5px rgba(94,104,121,288);
+} */
+
+.add{
+  width: 5rem;
+  height: 1.8rem;
+  box-shadow: -3px -3px 7px #ffffff73 ,  2px 3px 5px rgba(94,104,121,288);
+  border-radius: inherit;
+  border: 0cm;
+  transition: 0.30s;
+
+}
+
+.add:hover{
+  box-shadow: -3px -3px 7px #ffffff73 , inset 2px 3px 5px rgba(94,104,121,288);
+
+}
+
+.fa-check{
+  display: inline;
+}
+  
+
+li{
+  list-style-type: none;
+  /* text-decoration: line-through;
+	color: #888; */
+  
+}
+
+.row{
+  float: left;
+  
+}
+.row1{
+ margin-left: 1.2em;
+}
+.btn{
+  background-color: transparent;
+  border: transparent;
+  border-radius: inherit;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.30s;
+}
